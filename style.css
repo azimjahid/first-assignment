@@ -3,6 +3,7 @@ body{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto', sans-serif;
 }
+/*------nav part css start------*/
 nav{
 	float: right;
     width: 35%;
@@ -21,6 +22,9 @@ nav ul li a{
 	color: #c41a26;
 	display: block;
 }
+/*------nav part css end------*/
+
+/*------home part css start------*/
 .home-section{
     height: 500px;
 }
@@ -62,6 +66,9 @@ h2{
     display: block;
     padding: 40px 0px 0px 90px;
 }
+/*------home part css end------*/
+
+/*------about part css start------*/
 #about{
     height: 500px;
     margin-top: 60px;
@@ -71,6 +78,9 @@ h2{
     display: block;
     margin: -30px 0px 0px -25px ;
 }
+/*------about part css end------*/
+
+/*------service part css start------*/
 .service-head{
     text-align: center;
     margin-bottom: 30px;
@@ -97,6 +107,9 @@ h2{
 .last-column{
 	margin-right: 0px;
 }
+/*------service part css end------*/
+
+/*------work part css start------*/
 .work-wrap-column{
     float: left;
     height: 500px;
@@ -107,7 +120,7 @@ h2{
     text-align: center;
     margin-bottom: 30px;
 }
-#work .color-highlight{
+#portfolio .color-highlight{
     color:#FA705B;
 }
 .work-column{
@@ -129,11 +142,84 @@ h2{
 .work-last-column{
 	margin-right: 0px;
 }
-#work img{
+#portfolio img{
     width: 90%;
 }
-#work-inquiry img{
-    width: 100%;
+/*------work part css end------*/
+
+/*------inquiry part css start------*/
+.work-width img{
+    width: 60%;
+    display: block;
+    margin: 0px auto;
+}
+.work-headline{
+    font-weight: 700;
+    color: #fff;
     text-align: center;
+    float: left;
+    padding-right: 200px;
+}
+.inquiry{
+    margin-left: 18%;
+}
+.inquiry-display{
+    background-image: url(images/image-bar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    width:60%;
+    float: left;
+    border-radius: 15px;
+    margin-left: 18%;
+    position: relative;
+}
+.work-display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+/*------inquiry part css end------*/
+
+/*------footer part css start------*/
+.footer-head{
+    float: left;
+    width: 60%;
+    height: 100px;
+}
+.footer-bottom{
+    text-align: center;
+    margin: 60px 20px 0px 460px;
+}
+.footer-bottom h4{
+    font-weight: bold;
+    font-size: 30px;
+    color: #696871;
+    margin: 0px -10px 5px 0px;
+}
+.footer-bottom h3{
+    font-weight: bold;
+    font-size: 40px;
+    color: #363958;
+    margin: 10px 0px 10px -40px;
+}
+.social ul{
+    list-style-type: none;
+    margin: -50px 0px 0px 30px;
+}
+.social ul li{
+	float: left;
+	margin: 0px 10px;
+}
+.social ul li a{
+	text-decoration: none;
+	color: #c41a26;
     display: block;
 }
+.social ul li i{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+/*------foorer part css end------*/
