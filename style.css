@@ -1,0 +1,139 @@
+*{margin: 0, padding: 0,}
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+	float: right;
+    width: 35%;
+    height: 50px;
+	padding-top: 20px;
+}
+nav ul{
+	list-style-type: none;
+}
+nav ul li{
+	float: left;
+	margin: 5px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #c41a26;
+	display: block;
+}
+.home-section{
+    height: 500px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px
+}
+.color-blue{
+    color: #363958;
+}
+.color-orange{
+    color: #FF8367;
+    margin-top: -40px;
+    margin-bottom: -2px;
+}
+.link-button{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+#home{
+    padding-top: 70px
+}
+.home-img img{
+    width: 80%;
+    display: block;
+    padding: 40px 0px 0px 90px;
+}
+#about{
+    height: 500px;
+    margin-top: 60px;
+}
+.about-img img{
+    width: 90%;
+    display: block;
+    margin: -30px 0px 0px -25px ;
+}
+.service-head{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.full-wrap-column{
+	margin: -30px 10px;
+}
+.column{
+	text-align: center;
+	width: 22%;
+	float:left;
+    margin-right: 25px;
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 8px;
+}
+.column h2{ 
+	font-size: 20px;
+	color: #515151;
+}
+.first-column{
+	margin-left: 10px;
+}
+.last-column{
+	margin-right: 0px;
+}
+.work-wrap-column{
+    float: left;
+    height: 500px;
+    margin: 10px 0px;
+    background-color: #F8F9FC;
+}
+.work-head{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#work .color-highlight{
+    color:#FA705B;
+}
+.work-column{
+	text-align: center;
+	width: 28%;
+	float: left;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-right: 25px;
+    padding-top: 20px;
+}
+.work-column h2{ 
+	font-size: 20px;
+	color: #515151;
+}
+.work-first-column{
+	margin-left: 75px;
+}
+.work-last-column{
+	margin-right: 0px;
+}
+#work img{
+    width: 90%;
+}
+#work-inquiry img{
+    width: 100%;
+    text-align: center;
+    display: block;
+}
